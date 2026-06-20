@@ -32,7 +32,7 @@ This app uses the rear camera of an Android smartphone to monitor the area behin
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/YOUR-USERNAME/RearCollisionAlert.git
+   git clone https://github.com/Anosha-Aamer/RearCollisionAlert.git
 ```
 2. Open the project in **Android Studio**.
 3. Let Gradle sync and download dependencies.
@@ -42,14 +42,6 @@ This app uses the rear camera of an Android smartphone to monitor the area behin
 ## 📋 Permissions Required
 
 - `android.permission.CAMERA` – to access the rear camera for real-time detection.
-
-## ⚠️ Limitations
-
-- Distance estimation is based on **camera brightness analysis**, not actual depth sensing — so values are approximate, not precise.
-- Lighting conditions can affect detection accuracy.
-- For production-grade accuracy, future versions could integrate:
-  - LiDAR or ultrasonic sensors
-  - A trained ML model (e.g., TensorFlow Lite) for object detection and depth estimation
 
 ## 👤 Author
 
